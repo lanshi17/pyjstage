@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
+      xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"
+      xml:lang="ja">
+    <result>
+        <status>0</status>
+        <message/>
+    </result>
+    <title>Volumes and Issues</title>
+    <link href="http://xxx.xxx.xx/do?service=2&amp;system=1&amp;pubyearfrom=&amp;pubyearto=&amp;material=%E6%83
+%85%E5%A0%B1%E7%AE%A1%E7%90%86&amp;issn=&amp;cdjournal=&amp;volorder=&amp;article=&amp;author=&amp;af
+fil=&amp;keyword=&amp;abst=&amp;text=&amp;sortflg=&amp;vol=&amp;no=&amp;start=&amp;count=100"/>
+
+    <id>http://xxx.xxx.xx/do?service=2&amp;system=1&amp;pubyearfrom=&amp;pubyearto=&amp;material=%E6%83%8
+        5%E5%A0%B1%E7%AE%A1%E7%90%86&amp;issn=&amp;cdjournal=&amp;volorder=&amp;article=&amp;author=&amp;affi
+        l=&amp;keyword=&amp;abst=&amp;text=&amp;sortflg=&amp;vol=&amp;no=&amp;start=&amp;count=100
+    </id>
+    <servicecd>2</servicecd>
+    <updated>2010-04-24T15:09+09:00</updated>
+    <opensearch:totalResults>1</opensearch:totalResults>
+    <opensearch:startIndex>1</opensearch:startIndex>
+    <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+    <entry>
+        <vols_title>
+            <en><![CDATA[Vol. 39 (1996) , No. 1]]></en>
+            <ja><![CDATA[Vol. 39 (1996) , No. 1]]></ja>
+        </vols_title>
+        <vols_link>
+            <en>http://www.jstage.jst.go.jp/browse/johokanri/39/1/_contents</en>
+            <ja>http://www.jstage.jst.go.jp/browse/johokanri/39/1/_contents/-char/ja/</ja>
+        </vols_link>
+        <prism:issn>0021-7298</prism:issn>
+        <prism:eIssn>1347-1597</prism:eIssn>
+        <publisher>
+            <name/>
+            <url>
+                <en>http://xxx.xxxx.xx.xx</en>
+                <ja>http://xxx.xxxx.xx.xx</ja>
+            </url>
+        </publisher>
+        <cdjournal>johokanri</cdjournal>
+        <material_title>
+            <en><![CDATA[Journal of Information Processing and Management]]></en>
+            <ja><![CDATA[情報管理]]></ja>
+        </material_title>
+        <prism:volume>39</prism:volume>
+        <prism:number>1</prism:number>
+        <prism:startingPage>1</prism:startingPage>
+        <pubyear>1996</pubyear>
+        <systemcode>1</systemcode>
+        <systemname>J-STAGE</systemname>
+        <title><![CDATA[Vol. 39 (1996) , No. 1]]></title>
+        <link href="http://www.jstage.jst.go.jp/browse/johokanri/39/1/_contents/-char/ja/"/>
+        <id>http://www.jstage.jst.go.jp/browse/johokanri/39/1/_contents/-char/ja/</id>
+        <updated>2001-04-01T00:00+09:00</updated>
+    </entry>
+</feed>

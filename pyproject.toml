@@ -1,0 +1,10 @@
+[project]
+name = "05-demo-j-stage"
+version = "0.1.0"
+description = "J-STAGE API demo"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["pyjstage"]
+
+[tool.uv.sources]
+pyjstage = { path = "pyjstage", editable = true }

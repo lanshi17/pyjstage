@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
+      xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"
+      xml:lang="ja">
+    <result>
+        <status>0</status>
+        <message/>
+    </result>
+    <title>Articles</title>
+    <link href="http://api.jstage.jst.go.jp/searchapi/do?service=3&amp;abst=%E7%B5%B1%E5%90%88%E5%A4%B1%E8%AA%BF%E7%97%87&amp;count=3"/>
+    <id>http://api.jstage.jst.go.jp/searchapi/do?service=3&amp;abst=%E7%B5%B1%E5%90%88%E5%A4%B1%E8%AA%BF%E7%97%87&amp;count=3</id>
+    <servicecd>3</servicecd>
+    <updated>2020-01-14T15:20+09:00</updated>
+    <opensearch:totalResults>677</opensearch:totalResults>
+    <opensearch:startIndex>1</opensearch:startIndex>
+    <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+    <entry>
+        <article_title>
+            <en>
+                <![CDATA[Schizophrenia from viewpoint of the evolutionary psychiatry]]>
+            </en>
+            <ja>
+                <![CDATA[進化論の見地からみる統合失調症]]>
+            </ja>
+        </article_title>
+        <article_link>
+            <en>https://www.jstage.jst.go.jp/article/jsbpjjpp/23/1/23_53/_article</en>
+            <ja>https://www.jstage.jst.go.jp/article/jsbpjjpp/23/1/23_53/_article/-char/ja/</ja>
+        </article_link>
+        <author>
+            <en>
+                <name>
+                    <![CDATA[Satoshi Kato]]>
+                </name>
+            </en>
+            <ja>
+                <name>
+                    <![CDATA[加藤 敏]]>
+                </name>
+            </ja>
+        </author>
+        <cdjournal>jsbpjjpp</cdjournal>
+        <material_title>
+            <en>
+                <![CDATA[Japanese Journal of Biological Psychiatry]]>
+            </en>
+            <ja>
+                <![CDATA[日本生物学的精神医学会誌]]>
+            </ja>
+        </material_title>
+        <prism:issn>2186-6619</prism:issn>
+        <prism:eIssn>2186-6465</prism:eIssn>
+        <prism:volume>23</prism:volume>
+        <prism:number>1</prism:number>
+        <prism:startingPage>53</prism:startingPage>
+        <prism:endingPage>59</prism:endingPage>
+        <pubyear>2012</pubyear>
+        <prism:doi>10.11249/jsbpjjpp.23.1_53</prism:doi>
+        <systemcode>1</systemcode>
+        <systemname>J-STAGE</systemname>
+        <title>
+            <![CDATA[進化論の見地からみる統合失調症]]>
+        </title>
+        <link href="https://www.jstage.jst.go.jp/article/jsbpjjpp/23/1/23_53/_article/-char/ja/"/>
+        <id>https://www.jstage.jst.go.jp/article/jsbpjjpp/23/1/23_53/_article/-char/ja/</id>
+        <updated>2017-02-16T09:00+09:00</updated>
+    </entry>
+    <entry>
+        <article_title>
+            <en>
+                <![CDATA[Novel NMDA mechanisms and modulators for schizophrenia]]>
+            </en>
+            <ja>
+                <![CDATA[統合失調症の NMDA 受容体仮説と新しい治療法]]>
+            </ja>
+        </article_title>
+        <article_link>
+            <en>https://www.jstage.jst.go.jp/article/jsbpjjpp/25/2/25_109/_article</en>
+            <ja>https://www.jstage.jst.go.jp/article/jsbpjjpp/25/2/25_109/_article/-char/ja/</ja>
+        </article_link>
+        <author>
+            <en>
+                <name>
+                    <![CDATA[Kenji Hashimoto]]>
+                </name>
+            </en>
+            <ja>
+                <name>
+                    <![CDATA[橋本 謙二]]>
+                </name>
+            </ja>
+        </author>
+        <cdjournal>jsbpjjpp</cdjournal>
+        <material_title>
+            <en>
+                <![CDATA[Japanese Journal of Biological Psychiatry]]>
+            </en>
+            <ja>
+                <![CDATA[日本生物学的精神医学会誌]]>
+            </ja>
+        </material_title>
+        <prism:issn>2186-6619</prism:issn>
+        <prism:eIssn>2186-6465</prism:eIssn>
+        <prism:volume>25</prism:volume>
+        <prism:number>2</prism:number>
+        <prism:startingPage>109</prism:startingPage>
+        <prism:endingPage>112</prism:endingPage>
+        <pubyear>2014</pubyear>
+        <prism:doi>10.11249/jsbpjjpp.25.2_109</prism:doi>
+        <systemcode>1</systemcode>
+        <systemname>J-STAGE</systemname>
+        <title>
+            <![CDATA[統合失調症の NMDA 受容体仮説と新しい治療法]]>
+        </title>
+        <link href="https://www.jstage.jst.go.jp/article/jsbpjjpp/25/2/25_109/_article/-char/ja/"/>
+        <id>https://www.jstage.jst.go.jp/article/jsbpjjpp/25/2/25_109/_article/-char/ja/</id>
+        <updated>2017-02-16T09:00+09:00</updated>
+    </entry>
+    <entry>
+        <article_title>
+            <en>
+                <![CDATA[Genome-wide association study:(GWAS) of Schizophrenia]]>
+            </en>
+            <ja>
+                <![CDATA[統合失調症のゲノムワイド相関研究]]>
+            </ja>
+        </article_title>
+        <article_link>
+            <en>https://www.jstage.jst.go.jp/article/numa/70/2/70_2_125/_article</en>
+            <ja>https://www.jstage.jst.go.jp/article/numa/70/2/70_2_125/_article/-char/ja/</ja>
+        </article_link>
+        <author>
+            <en>
+                <name>
+                    <![CDATA[Sakae Takahashi]]>
+                </name>
+            </en>
+            <ja>
+                <name>
+                    <![CDATA[高橋 栄]]>
+                </name>
+                <name>
+                    <![CDATA[内山 真]]>
+                </name>
+            </ja>
+        </author>
+        <cdjournal>numa</cdjournal>
+        <material_title>
+            <en>
+                <![CDATA[Journal of Nihon University Medical Association]]>
+            </en>
+            <ja>
+                <![CDATA[日大医学雑誌]]>
+            </ja>
+        </material_title>
+        <prism:issn>0029-0424</prism:issn>
+        <prism:eIssn>1884-0779</prism:eIssn>
+        <prism:volume>70</prism:volume>
+        <prism:number>2</prism:number>
+        <prism:startingPage>125</prism:startingPage>
+        <prism:endingPage>127</prism:endingPage>
+        <pubyear>2011</pubyear>
+        <prism:doi>10.4264/numa.70.125</prism:doi>
+        <systemcode>1</systemcode>
+        <systemname>J-STAGE</systemname>
+        <title>
+            <![CDATA[統合失調症のゲノムワイド相関研究]]>
+        </title>
+        <link href="https://www.jstage.jst.go.jp/article/numa/70/2/70_2_125/_article/-char/ja/"/>
+        <id>https://www.jstage.jst.go.jp/article/numa/70/2/70_2_125/_article/-char/ja/</id>
+        <updated>2012-03-16T09:00+09:00</updated>
+    </entry>
+</feed>
