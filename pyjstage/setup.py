@@ -17,15 +17,29 @@ def read_description():
 
 
 setup(
-    name='pyjstage',
-    version='v0.0.2',
-    description='J-STAGE API wrapper for Python',
+    name='pyjstage-py312',
+    version='0.1.0',
+    description='J-STAGE API wrapper for Python - Python 3.12 Compatible',
     long_description=read_description(),
     long_description_content_type="text/markdown",
-    author='matsurih',
-    author_email='pipikapu@gmail.com',
-    url='https://github.com/matsurih/pyjstage',
+    author='lanshi17',
+    author_email='lanshi17@users.noreply.github.com',
+    url='https://github.com/lanshi17/pyjstage',
     license='MIT',
-    packages=find_packages(exclude=('tests', 'docs')),
+    packages=find_packages(exclude=('tests', 'docs', 'crawler')),
     install_requires=read_requirements(),
+    python_requires='>=3.12',
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.12',
+        'Topic :: Scientific/Engineering :: Information Analysis',
+    ],
+    keywords='jstage api wrapper japan science technology academic papers',
+    project_urls={
+        'Source': 'https://github.com/lanshi17/pyjstage',
+        'Original': 'https://github.com/matsurih/pyjstage',
+    },
 )
