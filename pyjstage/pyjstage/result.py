@@ -42,7 +42,7 @@ class Result:
         self.entries: List[etree] = []
         self.entries_temp: List[etree] = []
 
-    def __finish_setup(self):
+    def _finish_setup(self):
         """remove unused temporary attribute"""
         del self.entries_temp
 
@@ -128,7 +128,7 @@ class SearchResult(Result):
             ent.id = e.find('./id', self.xmlns).text.replace('\n', '').strip()
             ent.updated = datetime.fromisoformat(e.find('./updated', self.xmlns).text.replace('\n', '').strip())
             self.entries.append(ent)
-        self.__finish_setup()
+        self._finish_setup()
 
 
 class ListResult(Result):
@@ -209,4 +209,4 @@ class ListResult(Result):
             ent.id = e.find('./id', self.xmlns).text.replace('\n', '').strip()
             ent.updated = datetime.fromisoformat(e.find('./updated', self.xmlns).text.replace('\n', '').strip())
             self.entries.append(ent)
-        self.__finish_setup()
+        self._finish_setup()
