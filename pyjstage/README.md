@@ -1,8 +1,8 @@
-# pyjstage-py312
+# pyjstage2
 
 ![Python 3.12](https://img.shields.io/badge/python-3.12-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
-![PyPI version](https://img.shields.io/pypi/v/pyjstage-py312)
+![PyPI version](https://img.shields.io/pypi/v/pyjstage2)
 
 ## Overview
 
@@ -37,7 +37,7 @@ Special thanks to the original author [@matsurih](https://github.com/matsurih) f
 ## Installation
 
 ```shell
-$ pip install pyjstage-py312
+$ pip install pyjstage2
 ```
 
 ## Usage
@@ -107,7 +107,7 @@ To access full-text content, use the `link` or `doi` fields to visit the publish
 
 ### v0.1.1 (2025-05-18)
 
-- First PyPI release as `pyjstage-py312`
+- First PyPI release as `pyjstage2`
 - Python 3.12 compatibility
 - Updated dependencies (lxml >=5.0, requests >=2.31, urllib3 >=2.0)
 

@@ -17,7 +17,7 @@ def read_description():
 
 
 setup(
-    name='pyjstage-py312',
+    name='pyjstage2',
     version='0.1.2',
     description='J-STAGE API wrapper for Python - Python 3.12 Compatible',
     long_description=read_description(),

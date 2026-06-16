@@ -174,7 +174,7 @@ To access full-text content, use the `link` or `doi` fields to visit the publish
 
 ### v0.1.1 (2025-05-18)
 
-- First PyPI release as `pyjstage-py312`
+- First PyPI release as `pyjstage2`
 - Python 3.12 compatibility
 - Updated dependencies (lxml >=5.0, requests >=2.31, urllib3 >=2.0)
 
