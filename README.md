@@ -165,6 +165,19 @@ Tests real API requests through proxy (default: port 7890).
 
 To access full-text content, use the `link` or `doi` fields to visit the publisher's website.
 
+## Changelog
+
+### v0.1.2 (2025-06-16)
+
+- **Fix**: Null-safe XML parsing in `SearchResult` and `ListResult` — handles missing/empty XML elements without raising `AttributeError`
+- **Fix**: `WARN_002` (too many results) is now treated as a warning instead of raising an error, since the API still returns valid data
+
+### v0.1.1 (2025-05-18)
+
+- First PyPI release as `pyjstage-py312`
+- Python 3.12 compatibility
+- Updated dependencies (lxml >=5.0, requests >=2.31, urllib3 >=2.0)
+
 ## License
 
 - MIT License, see [LICENSE](pyjstage/LICENSE) file.
