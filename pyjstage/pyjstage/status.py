@@ -54,7 +54,7 @@ class Status(Enum):
         elif status == Status.NO_RESULTS.value:
             raise errors.NoResultsError(message)
         elif status == Status.TOO_MANY_RESULTS.value:
-            raise errors.TooManyResultsError(message)
+            pass  # warning, not an error — API still returns valid data
         elif status == Status.TOO_MANY_REQUESTS.value:
             raise errors.TooManyRequestsError(message)
         elif status == Status.INVALID_QUERY.value:
