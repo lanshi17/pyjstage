@@ -1,7 +1,11 @@
-from parser import Parser
-from service import Service
-from status import Status
+import os
+from pyjstage.parser import Parser
+from pyjstage.service import Service
+from pyjstage.status import Status
 from unittest import TestCase
+
+
+RESOURCES_DIR = os.path.join(os.path.dirname(__file__), 'resources')
 
 
 class TestResult(TestCase):
@@ -12,7 +16,7 @@ class TestResult(TestCase):
         pass
 
     def test_parse_search(self):
-        with open('resources/search.xml', 'r') as f:
+        with open(os.path.join(RESOURCES_DIR, 'search.xml'), 'r') as f:
             xml_result = f.read()
         ret = self.parser.parse(xml_result.encode('utf-8'))
         self.assertEqual(ret.status, Status.OK.value)
@@ -24,7 +28,7 @@ class TestResult(TestCase):
         self.assertEqual(len(ret.entries), 3)
 
     def test_parse_list(self):
-        with open('resources/list.xml', 'r') as f:
+        with open(os.path.join(RESOURCES_DIR, 'list.xml'), 'r') as f:
             xml_result = f.read()
         ret = self.parser.parse(xml_result.encode('utf-8'))
         self.assertEqual(ret.status, Status.OK.value)

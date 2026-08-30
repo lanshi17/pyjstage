@@ -1,5 +1,5 @@
-from status import Status
-import errors
+from pyjstage import errors
+from pyjstage.status import Status
 from unittest import TestCase
 
 
@@ -21,13 +21,8 @@ class TestStatus(TestCase):
             self.assertTrue(False)
 
     def test_too_many_results(self):
-        try:
-            Status.divide(Status.TOO_MANY_RESULTS.value, '')
-            self.assertTrue(False)
-        except errors.TooManyResultsError:
-            self.assertTrue(True)
-        except errors.JstageError:
-            self.assertTrue(False)
+        # WARN_002 is a warning, not an error: the API still returns valid data (since v0.1.2)
+        self.assertIsNone(Status.divide(Status.TOO_MANY_RESULTS.value, ''))
 
     def test_too_many_requests(self):
         try:

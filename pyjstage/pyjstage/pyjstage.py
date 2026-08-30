@@ -58,7 +58,7 @@ class Pyjstage:
             material=material,
             issn=issn,
             cdjournal=cdjournal,
-            volorder=volorder.value)
+            volorder=volorder.value if volorder else None)
         response = requests.get(url)
         return self.parser.parse(response.text.encode('utf-8'))
 

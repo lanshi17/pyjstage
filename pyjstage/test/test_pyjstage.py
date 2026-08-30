@@ -1,7 +1,7 @@
 from pyjstage.pyjstage import Pyjstage
-from service import Service
-from status import Status
-from result import Result
+from pyjstage.service import Service
+from pyjstage.status import Status
+from pyjstage.result import Result
 from unittest import TestCase
 
 
@@ -22,7 +22,7 @@ class TestPyjstage(TestCase):
     def test_list(self):
         ret = self.pyjstage.list(issn='2186-6619')
         self.commons(ret)
-        self.assertEqual(ret.link, 'http://api.jstage.jst.go.jp/searchapi/do?service=2&issn=2186-6619')
+        self.assertEqual(ret.link, 'https://api.jstage.jst.go.jp/searchapi/do?service=2&issn=2186-6619')
         self.assertEqual(ret.servicecd, Service.LIST.value)
         self.assertTrue(ret.items_per_page > 0)
         self.assertTrue(len(ret.entries) > 0)
@@ -30,7 +30,7 @@ class TestPyjstage(TestCase):
     def test_search(self):
         ret = self.pyjstage.search(issn='2186-6619', count=1)
         self.commons(ret)
-        self.assertEqual(ret.link, 'http://api.jstage.jst.go.jp/searchapi/do?service=3&issn=2186-6619&count=1')
+        self.assertEqual(ret.link, 'https://api.jstage.jst.go.jp/searchapi/do?service=3&issn=2186-6619&count=1')
         self.assertEqual(ret.servicecd, Service.SEARCH.value)
         self.assertEqual(ret.items_per_page, 1)
         self.assertEqual(len(ret.entries), 1)
