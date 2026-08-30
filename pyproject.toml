@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "J-STAGE API demo"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["pyjstage"]
+dependencies = ["pyjstage2"]
 
 [tool.uv.sources]
-pyjstage = { path = "pyjstage", editable = true }
+pyjstage2 = { path = "pyjstage", editable = true }
