@@ -40,6 +40,8 @@ Special thanks to the original author [@matsurih](https://github.com/matsurih) f
 $ pip install pyjstage2
 ```
 
+> **Note**: The distribution name is `pyjstage2`, but the import package remains `pyjstage` — kept identical to the original [pyjstage](https://pypi.org/project/pyjstage/) so existing code works unchanged. Install with `pip install pyjstage2`, import with `from pyjstage import Pyjstage`.
+
 ## Usage
 
 ### Basic Usage
@@ -99,6 +101,14 @@ jstage.search(
 To access full-text content, use the `link` or `doi` fields to visit the publisher's website.
 
 ## Changelog
+
+### v0.1.3 (2026-08-30)
+
+- **Fix**: `Pyjstage.list()` crashed with `AttributeError` when `volorder` was omitted — README's own example now works (same None-handling as `search()`)
+- **Fix**: test suite is now runnable (`pyjstage.*` package imports, cwd-independent resource paths); CI actually discovers and runs all 20 tests
+- **Build**: migrated to PEP 621 `pyproject.toml`; removed `setup.py`, `MANIFEST.in` and requirements files; dropped unused dependencies (`certifi`, `chardet`, `idna`)
+- **CI**: publish workflow uses `python -m build` + `twine check`; test workflow runs on Python 3.12
+- **Docs**: clarified distribution name (`pyjstage2`) vs import name (`pyjstage`)
 
 ### v0.1.2 (2026-06-16)
 
