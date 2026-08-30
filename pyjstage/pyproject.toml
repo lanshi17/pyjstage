@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyjstage2"
+version = "0.1.3"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "lanshi17", email = "lanshi17@users.noreply.github.com" },
+]
+keywords = [
+    "jstage",
+    "api",
+    "wrapper",
+    "japan",
+    "science",
+    "technology",
+    "academic",
+    "papers",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "lxml>=5.0.0",
+    "requests>=2.31.0",
+    "urllib3>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/lanshi17/pyjstage"
+Source = "https://github.com/lanshi17/pyjstage"
+Original = "https://github.com/matsurih/pyjstage"
+
+[tool.setuptools.packages.find]
+include = ["pyjstage*"]
